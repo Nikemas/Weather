@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    background: rgba(155, 67, 140, .5);
+}
+
+.container{
+    width: 35vw;
+    border-top: 5px solid white;
+    margin:50px 0 0 0;
+}
+
+.title{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.form{
+    width: 100%;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__text{
+    width: 70%;
+    height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid white;
+    padding: 0 0 0 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.form__text::placeholder{
+    color: white;
+}
+
+.form__button{
+    width: 25%;
+    height: 40px;
+    background: lightblue;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card{
+    margin: 20px 0 0 0;
+    width: calc(100% / 2);
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 20px;
+    background: white;
+    height: 380px;
+    border-radius: 30px;
+}
+
+.card__city{
+    font-size: 1.8rem;
+    color: #4C5A72;
+    position: relative;
+    display: inline-block;
+    margin: 30px 0 0 0;
+}
+
+.card__city span{
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #FF8C00;
+    color: white;
+    padding: 1px 8px ;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+
+.card__temp{
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 10px 0 0 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.card__temp span{
+    font-size: 2.5rem;
+    position: absolute;
+    right: -45px;
+}
+
+.card__desc{
+    font-size: 1.7rem;
+    margin: 20px 0 0 0;
+}
